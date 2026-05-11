@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student CV - Abdalhamed Albek</title>
+  <link rel="stylesheet" href="2210213579.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="toggle-btn">Toggle Theme</button>
+
+  <div class="container fade-in">
+    <aside class="sidebar">
+      <img src="albek.jpg" alt="Profile Image" class="profile-img" />
+      <h2>Abdalhamed Albek</h2>
+      <p class="job-title" id="job-title"></p>
+
+      <div class="section">
+        <h3>Personal Details</h3>
+        <ul>
+          <li>Age: 25</li>
+          <li>Location: Istanbul, Türkiye</li>
+          <li>Languages: English, Arabic, Turkish</li>
+        </ul>
+      </div>
+
+      <div class="section contact-form">
+        <h3>Contact Me</h3>
+        <form id="contact-form" action="contact.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <p id="form-message" class="form-message"></p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>Karabuk University, Bachelor's in Computer Engineering</li>
+          <li>Graduation Date: June 2023</li>
+          <li>GPA: 3.3/4.0</li>
+          <li>Key Courses: Data Structures, Operating Systems, AI, Network Security</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+        <h3>Software Engineering Intern</h3>
+        <ul>
+          <li>Debugged and optimized web apps using Python and Java.</li>
+          <li>Improved database retrieval efficiency by 40%.</li>
+          <li>Developed a mobile e-commerce app with a team.</li>
+        </ul>
+
+        <h3>Final Year Project</h3>
+        <ul>
+          <li>Real-Time Traffic Monitoring System.</li>
+          <li>Analyzed live traffic data using machine learning.</li>
+          <li>Used Python & TensorFlow for model building.</li>
+          <li>Achieved 75% accuracy in predictions.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skill">
+          <span>Project Management</span>
+          <div class="bar-wrapper">
+            <div class="bar" data-percent="80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>UI/UX Design</span>
+          <div class="bar-wrapper">
+            <div class="bar" data-percent="70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>HTML/CSS/JS</span>
+          <div class="bar-wrapper">
+            <div class="bar" data-percent="85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C++ / C#</span>
+          <div class="bar-wrapper">
+            <div class="bar" data-percent="75%"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="2210213579.js"></script>
+</body>
+</html>
